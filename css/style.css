@@ -55,3 +55,92 @@ ul{
     width: 900px;
     height: 400px;
 }
+
+.white_box{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi_face1{
+    min-width: 1200px;
+    min-height: 500px;
+    display: flex;
+}
+
+.grande{
+    background-color: #1e90ff;
+    min-width: 720px;
+    min-height: 500px;
+
+}
+
+.piccolo{
+    background-color: #ffc0cb;
+    min-width: 480px;
+    min-height: 500px;
+}
+
+.grey_box{
+    background-color: #d3d3d3;
+}
+
+.bi_face2{
+    min-width: 1200px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.full_screen{
+    min-width: 100%;
+    min-height: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_box{
+    background-color: #228b22;
+    min-width: 1200px;
+    min-height: 900px;
+}
+
+.black_box{
+    background-color: #23272a;
+    min-width: 100%;
+    min-height: 630px;
+    border-bottom: 1px solid #d1d2d2;
+}
+
+.list_card{
+    min-width: 1200px;
+    min-height: 580px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.red_big{
+    background-color: #f08080;
+    min-width: 360px;
+    min-height: 580px;
+}
+
+.azzurro_big{
+    background-color: #20b2aa;
+    min-width: 840px;
+    min-height: 580px;
+    display: flex;
+
+}
+
+.card_small{
+    width: calc(840px / 4);
+    min-height:580px;
+    border: 1px dotted black;
+}
