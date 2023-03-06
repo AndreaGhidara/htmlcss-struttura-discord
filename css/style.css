@@ -144,3 +144,27 @@ ul{
     min-height:580px;
     border: 1px dotted black;
 }
+
+.final_footer{
+    background-color: #23272a;
+    min-width: 1200px;
+    min-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.foter_box{
+    background-color: #7fffd4;
+    min-width: 1200px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft_logo{
+    background-color:#ffb6c1;
+    padding: 0.5rem;
+}
+
